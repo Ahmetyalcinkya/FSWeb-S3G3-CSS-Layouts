@@ -1,0 +1,399 @@
+.container-div {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+h1 {
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-container1 {
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(186, 184, 108, 1) 39%
+  );
+}
+.flex-item1 {
+  text-decoration: none;
+  transition: 0.5s;
+  color: black;
+  font-size: 1.25rem;
+  padding: 0.3rem;
+  margin: 0.2rem;
+}
+.flex-item1:hover {
+  color: white;
+}
+.about-container {
+  display: flex;
+  margin-top: 1.25rem;
+  justify-content: center;
+}
+.profile-container > .profile-pic {
+  width: 22rem;
+  height: 22rem;
+  margin-right: 1.25rem;
+  border-radius: 2.2rem;
+}
+h2 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  text-align: left;
+  font-size: 1.25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.portfolio-pics {
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+}
+h4 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 17.5rem;
+}
+img {
+  width: 17.5rem;
+  height: 26.25rem;
+}
+.portfolio-info {
+  height: 1.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.designs-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 9.4rem;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 24%,
+    rgba(186, 184, 108, 1) 100%
+  );
+}
+.icon-container {
+  display: inline-block;
+  text-decoration: none;
+}
+.icon {
+  display: inline-block;
+}
+.icon-info {
+  display: block;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.app-icon {
+  height: 4.7rem;
+  width: 4.7rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  background-color: rgb(230, 227, 227);
+}
+button {
+  padding: 0.3rem;
+  background-color: lightgray;
+  color: black;
+  border-radius: 0.3rem;
+  transition: 0.8s;
+}
+button:hover {
+  background-color: rgb(230, 227, 227);
+}
+
+/*! LAPTOP */
+@media (max-width: 1366px) {
+  .container-div {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 1rem;
+  }
+  h1 {
+    text-align: left;
+    font-size: 2.25rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .header-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .flex-container1 {
+    height: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(186, 184, 108, 1) 39%
+    );
+  }
+  .flex-item1 {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin: 0.2rem;
+  }
+  .about-container {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+  }
+  .profile-container > .profile-pic {
+    width: 22rem;
+    height: 22rem;
+    margin-right: 1.25rem;
+    border-radius: 2.2rem;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  p {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .portfolio-pics {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  h4 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 15rem;
+  }
+  img {
+    width: 15rem;
+    height: 25rem;
+  }
+  .portfolio-info {
+    height: 2.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .designs-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8.9rem;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 24%,
+      rgba(186, 184, 108, 1) 100%
+    );
+  }
+  .icon-container {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .icon {
+    display: inline-block;
+  }
+  .icon-info {
+    display: block;
+    text-align: center;
+    margin-top: 0.4rem;
+  }
+  .app-icon {
+    height: 5rem;
+    width: 5rem;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.5rem;
+    width: 100%;
+    background-color: rgb(230, 227, 227);
+  }
+  button {
+    padding: 0.5rem;
+    background-color: lightgray;
+    color: black;
+    border-radius: 0.5rem;
+    transition: 0.8s;
+  }
+  button:hover {
+    background-color: rgb(230, 227, 227);
+  }
+}
+
+/*! IPHONE */
+@media (max-width: 340px) {
+  .container-div {
+    margin: 0 auto;
+    width: 90%;
+    padding: 0.25rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .flex-container1 {
+    margin-top: 8rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(
+      0deg,
+      rgba(186, 184, 108, 1) 52%,
+      rgba(196, 195, 130, 1) 74%,
+      rgba(247, 247, 238, 1) 100%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+  .flex-item1 {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin: 0.2rem;
+  }
+  .flex-item1:hover {
+    color: red;
+  }
+  .profile-container > .profile-pic {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    border-radius: 2.2rem;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .portfolio-pics {
+    margin-bottom: 1.75rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h4 {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    width: 8rem;
+  }
+  img {
+    width: 7.5rem;
+    height: 15rem;
+  }
+  .portfolio-info {
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .designs-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8.4rem;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 24%,
+      rgba(186, 184, 108, 1) 100%
+    );
+  }
+  .icon-container {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .icon {
+    display: inline-block;
+  }
+  .icon-info {
+    display: block;
+    text-align: center;
+    margin-top: 0.6rem;
+  }
+  .app-icon {
+    height: 5.3rem;
+    width: 5.3rem;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.75rem;
+    width: 100%;
+    background-color: rgb(230, 227, 227);
+  }
+  button {
+    padding: 0.3rem;
+    background-color: lightgray;
+    color: black;
+    border-radius: 0.3rem;
+    transition: 0.8s;
+  }
+  button:hover {
+    background-color: rgb(230, 227, 227);
+  }
+}
